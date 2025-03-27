@@ -34,6 +34,7 @@ const handler = NextAuth({
           id: user.id,
           email: user.email,
           name: user.name,
+          role: user.role, // Ensure the role is included
         };
       },
     }),
