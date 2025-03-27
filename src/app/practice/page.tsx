@@ -136,7 +136,6 @@ export default function Practice() {
                         minimap: { enabled: false },
                         fontSize: 14,
                         lineNumbers: 'on',
-                        scrollBeyond: false,
                       }}
                     />
                   </div>
